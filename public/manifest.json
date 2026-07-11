@@ -4,7 +4,7 @@
   "name": "GymBroPlugin",
   "description": "Te tira las foto de los perricos cuando aciertas una flashcard, pero tiene más fotos de perricos",
   "enableOnMobile": false,
-  "id": "c-u-t-i",
+  "id": "motivation-plugin-remnote-flixrem",
   "manifestVersion": 1,
   "version": {
     "major": 0,
