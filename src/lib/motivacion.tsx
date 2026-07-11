@@ -16,18 +16,18 @@ const motivacionesES = [
 ];
 
 const motivacionesEN = [
-    "You're looking pawsome 🔥", 
-    "You're a tough bone to chew... 🦴", 
-    "Go for it, buddy! 💪", 
-    "Show them who's the alpha dog 🐺", 
+    "Zieh durch!!!!!! lets goooooo 🔥", 
+    "Komm schon bis zum nächsten Ziel!!!", 
+    "Stark! Weiter so!💪", 
+    "LÖWE!!!!! 🐺", 
     "Awesome!! OwO **wag that tail**", 
-    "Here’s a pupper as a gift 🐕‍🦺", 
-    "Americano Dios bendito...🙏⛪", 
+    "Walk the Algrotithm like a dog!!! LETS GOO 🐕‍🦺", 
+    "So läufts weiter so!...🙏", 
     "Who's my handsome pup... 😏", 
-    "Well done, good pup!", 
-    "Good job, fur-tastic 💯", 
-    "Great, you're pawsome ✨", 
-    "Keep it up, tail wagging! 🤑"
+    "Stark! Bald hast dus!!!", 
+    "Du MONSTERRRR!°!!!!!!!!💯", 
+    "Keep it UP REACH FOR THE STARS!!! ✨", 
+    "LETS GOOOOOOOO 🤑"
 ];
 
 export const motivaciones: {[k: string]: string[]} = {
