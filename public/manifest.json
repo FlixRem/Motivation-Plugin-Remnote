@@ -1,7 +1,7 @@
 {
-  "author": "yo (cuti)",
-  "repoUrl": "https://github.com/yo-cuti/plugin-perricos-remnote",
-  "name": "😛 perricos",
+  "author": "yo (cuti) - fork => FlixRem",
+  "repoUrl": "https://github.com/FlixRem/Motivation-Plugin-Remnote",
+  "name": "GymBroPlugin",
   "description": "Te tira las foto de los perricos cuando aciertas una flashcard, pero tiene más fotos de perricos",
   "enableOnMobile": false,
   "id": "c-u-t-i",
