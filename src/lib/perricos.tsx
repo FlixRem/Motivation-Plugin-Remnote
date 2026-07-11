@@ -1,6 +1,6 @@
 
 // mostly from: https://source.unsplash.com/random/600x600/?dog
-const perricoAPIUrl = `https://loremflickr.com/800/600/studying,motivation`; 
+const perricoAPIUrl = `https://loremflickr.com/800/600/incredible`; 
 
 interface RespuestaAPIPerro {
     message: string;
