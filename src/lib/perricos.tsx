@@ -1,25 +1,19 @@
+import bild1 from "../ameer-basheer-JHDqhEFZJjs-unsplash.jpg";
+import bild2 from "../eddie-jones-HSyznLZ8Od8-unsplash.jpg";
+import bild3 from "../ian-chen-wrrgZwI7qOY-unsplash.jpg";
+import bild4 from "../jonah-foss-EZie-1ajdxQ-unsplash.jpg";
+import bild5 from "../josh-olalde-paXhs03c8sQ-unsplash.jpg";
+import bild6 from "../norbert-braun-uU8n5LuzpTc-unsplash.jpg";
+import bild7 from "../sporlab-_CuHGtmRkkI-unsplash.jpg";
 
-// mostly from: https://source.unsplash.com/random/600x600/?dog
-const perricoAPIUrl = `https://loremflickr.com/800/600/incredible`; 
-
-interface RespuestaAPIPerro {
-    message: string;
-    status: string;
-}
+const meineBilder = [bild1, bild2, bild3, bild4, bild5, bild6, bild7];
 
 export const tomaPerrico = async (): Promise<string | null> => {
-    try {
-        const respuesta = await fetch(perricoAPIUrl)
-        const data: RespuestaAPIPerro = await respuesta.json()
-        if (data.message) {
-            return data.message;
-        } else {
-            console.error("No se ha encontrado el perro");
-            return null;
-        }
-    } catch (error) {
-        // TypeError: Failed to fetch
-        console.log('There was an error', error);
-        return null;
-    }
+  try {
+    const zufallsIndex = Math.floor(Math.random() * meineBilder.length);
+    return meineBilder[zufallsIndex];
+  } catch (error) {
+    console.log('There was an error', error);
+    return null;
+  }
 };
