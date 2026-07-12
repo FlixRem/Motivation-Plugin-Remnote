@@ -1,10 +1,10 @@
-import bild1 from "../ameer-basheer-JHDqhEFZJjs-unsplash.jpg";
-import bild2 from "../eddie-jones-HSyznLZ8Od8-unsplash.jpg";
-import bild3 from "../ian-chen-wrrgZwI7qOY-unsplash.jpg";
-import bild4 from "../jonah-foss-EZie-1ajdxQ-unsplash.jpg";
-import bild5 from "../josh-olalde-paXhs03c8sQ-unsplash.jpg";
-import bild6 from "../norbert-braun-uU8n5LuzpTc-unsplash.jpg";
-import bild7 from "../sporlab-_CuHGtmRkkI-unsplash.jpg";
+import bild1 from "../Bild1.jpg";
+import bild2 from "../Bild2.jpg";
+import bild3 from "../Bild3.jpg";
+import bild4 from "../Bild4.jpg";
+import bild5 from "../Bild5.jpg";
+import bild6 from "../Bild6.jpg";
+import bild7 from "../Bild7.jpg";
 
 const meineBilder = [bild1, bild2, bild3, bild4, bild5, bild6, bild7];
 
